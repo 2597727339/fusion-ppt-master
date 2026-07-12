@@ -1,6 +1,6 @@
 # fusion-ppt-master
 
-`fusion-ppt-master` is a self-contained Claude Code skill for narrative planning, visual direction, page rhythm, SVG production, and editable PPTX export.
+`fusion-ppt-master` is a self-contained, Codex-first agent skill for narrative planning, visual direction, page rhythm, SVG production, and editable PPTX export. It is not exclusive to Claude Code and can also be installed in compatible skill-aware agents.
 
 It internalizes four capability areas without calling external skill directories at runtime:
 
@@ -34,7 +34,13 @@ See `SKILL.md` for the mandatory reads, blocking confirmation point, artifacts, 
 
 ## Installation
 
-Place the directory at:
+For Codex, place the directory at:
+
+```text
+~/.codex/skills/fusion-ppt-master/
+```
+
+For Claude Code or another compatible host, install the same directory under that host's skill root, for example:
 
 ```text
 ~/.claude/skills/fusion-ppt-master/
