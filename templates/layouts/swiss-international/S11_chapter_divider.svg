@@ -1,0 +1,34 @@
+<!--
+  swiss-international / S11_chapter_divider
+  Chapter Divider — 章节分隔
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Dark theme, anchor rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: dark -->
+  <rect width="1280" height="720" fill="#0A0A0A"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#FFFFFF" letter-spacing="0.15em" font-weight="700">ACT III · RESULTS</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">11 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#333333" stroke-width="1"/>
+
+  <!-- Centered chapter divider -->
+  <g id="chapter-content" transform="translate(640, 360)" text-anchor="middle">
+    <text x="0" y="-60" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#FFFFFF" letter-spacing="0.2em" font-weight="700">ACT III</text>
+    <text x="0" y="0" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="200" fill="#FFFFFF">成果与数据</text>
+    <text x="0" y="50" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#888888">结果已经证明，方法值得推广。</text>
+  </g>
+
+  <!-- Accent line -->
+  <line x1="560" y1="440" x2="720" y2="440" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">Chapter Divider</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#333333" stroke-width="1"/>
+</svg>

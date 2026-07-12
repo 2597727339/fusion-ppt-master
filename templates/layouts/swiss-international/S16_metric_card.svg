@@ -1,0 +1,56 @@
+<!--
+  swiss-international / S16_metric_card
+  Metric Cards — 指标卡片
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">METHODOLOGY · 16</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">16 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600">METRICS · 关键指标</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="200" fill="#0A0A0A">融合成果</text>
+
+  <!-- 4 metric cards -->
+  <!-- Card 1 -->
+  <rect x="60" y="190" width="273" height="140" fill="#F5F5F5"/>
+  <text x="80" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#0A0A0A">6</text>
+  <text x="80" y="270" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">Pipeline Phases</text>
+  <text x="80" y="300" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">Source → Narrative → Design →</text>
+  <text x="80" y="318" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">Strategist → Execute → Export</text>
+
+  <!-- Card 2 -->
+  <rect x="353" y="190" width="273" height="140" fill="#F5F5F5"/>
+  <text x="373" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#0A0A0A">34</text>
+  <text x="373" y="270" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">Layout Templates</text>
+  <text x="373" y="300" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">12 magazine + 22 swiss</text>
+  <text x="373" y="318" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">hand-crafted SVG templates</text>
+
+  <!-- Card 3 -->
+  <rect x="647" y="190" width="273" height="140" fill="#F5F5F5"/>
+  <text x="667" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#0A0A0A">40</text>
+  <text x="667" y="270" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">Design Styles</text>
+  <text x="667" y="300" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">20 PPT + 20 web styles</text>
+  <text x="667" y="318" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">mapped to palette/font/icon</text>
+
+  <!-- Card 4 -->
+  <rect x="940" y="190" width="280" height="140" fill="#F5F5F5"/>
+  <text x="960" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#E63946">4</text>
+  <text x="960" y="270" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">Source Skills Merged</text>
+  <text x="960" y="300" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">dashiai + huashu + guizang</text>
+  <text x="960" y="318" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">+ ppt-master → 1 unified</text>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

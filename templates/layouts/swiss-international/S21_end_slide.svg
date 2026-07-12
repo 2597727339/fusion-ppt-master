@@ -1,0 +1,45 @@
+<!--
+  swiss-international / S21_end_slide
+  Ending — 结尾页
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">CLOSING · 21</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">21 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Centered closing content -->
+  <g id="closing-content" transform="translate(640, 360)" text-anchor="middle">
+    <!-- Thank you -->
+    <text x="0" y="-40" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="200" fill="#0A0A0A">谢谢</text>
+    <text x="0" y="20" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#666666">Thank You</text>
+
+    <!-- Three takeaways -->
+    <line x1="-400" y1="80" x2="400" y2="80" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="-300" y="130" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">01</text>
+    <text x="-300" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A">统一管线</text>
+    <text x="-300" y="185" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">6 阶段严格串行</text>
+
+    <text x="0" y="130" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">02</text>
+    <text x="0" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A">34 布局</text>
+    <text x="0" y="185" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">手工 SVG 模板</text>
+
+    <text x="300" y="130" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">03</text>
+    <text x="300" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A">40 风格</text>
+    <text x="300" y="185" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">推荐数据库</text>
+  </g>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

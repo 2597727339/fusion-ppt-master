@@ -1,0 +1,36 @@
+# .gitignore for fusion-ppt-master
+
+# Project directories (per-project data, not part of the skill)
+projects/
+_worktrees/
+
+# Generated output
+*.pptx
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Optional Node/browser runtime
+node_modules/
+playwright-report/
+test-results/
+
+# Temp
+*.tmp
+temp/

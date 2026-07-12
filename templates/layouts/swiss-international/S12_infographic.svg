@@ -1,0 +1,61 @@
+<!--
+  swiss-international / S12_infographic
+  Infographic — 信息图
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">METHODOLOGY · 12</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">12 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600">INFOGRAPHIC · 信息图</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="200" fill="#0A0A0A">融合架构全景</text>
+
+  <!-- Info graphic: central circle with 4 spokes -->
+  <!-- Central node -->
+  <rect x="540" y="300" width="200" height="120" fill="#0A0A0A"/>
+  <text x="640" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">FUSED</text>
+  <text x="640" y="385" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#CCCCCC" text-anchor="middle">PIPELINE</text>
+
+  <!-- Top-left: Narrative -->
+  <rect x="60" y="190" width="280" height="100" fill="#F5F5F5"/>
+  <text x="80" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">01</text>
+  <text x="80" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Narrative</text>
+  <text x="80" y="280" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">dashiai 叙事框架</text>
+  <line x1="340" y1="240" x2="540" y2="330" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Top-right: Design -->
+  <rect x="940" y="190" width="280" height="100" fill="#F5F5F5"/>
+  <text x="960" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">02</text>
+  <text x="960" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Design</text>
+  <text x="960" y="280" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">huashu 风格数据库</text>
+  <line x1="940" y1="240" x2="740" y2="330" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Bottom-left: Rhythm -->
+  <rect x="60" y="430" width="280" height="100" fill="#F5F5F5"/>
+  <text x="80" y="460" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">03</text>
+  <text x="80" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Rhythm</text>
+  <text x="80" y="520" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">guizang 节奏规则</text>
+  <line x1="340" y1="480" x2="540" y2="400" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Bottom-right: Production -->
+  <rect x="940" y="430" width="280" height="100" fill="#F5F5F5"/>
+  <text x="960" y="460" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">04</text>
+  <text x="960" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Production</text>
+  <text x="960" y="520" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">ppt-master 生产引擎</text>
+  <line x1="940" y1="480" x2="740" y2="400" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>
