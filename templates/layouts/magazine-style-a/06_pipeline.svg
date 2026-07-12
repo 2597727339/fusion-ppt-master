@@ -1,0 +1,86 @@
+<!--
+  magazine-style-a / 06_pipeline
+  Two-Column Pipeline — 两列流水线
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Light theme, dense rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">我的工作流 · Workflow</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">Act II · 15 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Kicker + Title -->
+  <text x="60" y="100" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#0A0A0A" letter-spacing="0.1em" font-weight="700">Pipeline · 流水线</text>
+  <text x="60" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#0A0A0A">两条流水线</text>
+
+  <!-- Left column: Text Pipeline -->
+  <text x="60" y="185" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#0A0A0A" font-weight="600">文本侧 · Text Pipeline</text>
+
+  <!-- Step 1 -->
+  <rect x="60" y="200" width="560" height="52" fill="#F5F5F5"/>
+  <text x="80" y="233" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">01</text>
+  <text x="120" y="233" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Draft</text>
+  <text x="660" y="233" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">AI 帮我起草初稿</text>
+
+  <!-- Step 2 -->
+  <rect x="60" y="260" width="560" height="52" fill="#F5F5F5"/>
+  <text x="80" y="293" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">02</text>
+  <text x="120" y="293" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Polish</text>
+  <text x="660" y="293" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">AI 润色去 AI 味</text>
+
+  <!-- Step 3 -->
+  <rect x="60" y="320" width="560" height="52" fill="#F5F5F5"/>
+  <text x="80" y="353" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">03</text>
+  <text x="120" y="353" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Morph</text>
+  <text x="660" y="353" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">AI 变形成推特 / 小红书</text>
+
+  <!-- Step 4 -->
+  <rect x="60" y="380" width="560" height="52" fill="#F5F5F5"/>
+  <text x="80" y="413" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">04</text>
+  <text x="120" y="413" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Illustrate</text>
+  <text x="660" y="413" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">AI 生成信息图</text>
+
+  <!-- Step 5 -->
+  <rect x="60" y="440" width="560" height="52" fill="#F5F5F5"/>
+  <text x="80" y="473" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">05</text>
+  <text x="120" y="473" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Distribute</text>
+  <text x="660" y="473" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">一键分发 9 平台</text>
+
+  <!-- Right column: Video Pipeline -->
+  <text x="680" y="185" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#0A0A0A" font-weight="600">视觉 · 视频侧 · Video Pipeline</text>
+
+  <!-- Step 6 -->
+  <rect x="680" y="200" width="540" height="52" fill="#F5F5F5"/>
+  <text x="700" y="233" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">06</text>
+  <text x="740" y="233" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Cut</text>
+  <text x="1220" y="233" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666" text-anchor="end">AI 帮我剪辑</text>
+
+  <!-- Step 7 -->
+  <rect x="680" y="260" width="540" height="52" fill="#F5F5F5"/>
+  <text x="700" y="293" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">07</text>
+  <text x="740" y="293" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Wrap</text>
+  <text x="1220" y="293" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666" text-anchor="end">AI 帮我包装</text>
+
+  <!-- Step 8 -->
+  <rect x="680" y="320" width="540" height="52" fill="#F5F5F5"/>
+  <text x="700" y="353" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">08</text>
+  <text x="740" y="353" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">Cover</text>
+  <text x="1220" y="353" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666" text-anchor="end">AI 生成封面</text>
+
+  <!-- Divider line between columns -->
+  <line x1="670" y1="180" x2="670" y2="540" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">Page 15 · 我的内容工厂</text>
+  <text x="1220" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" text-anchor="end">Workflow</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

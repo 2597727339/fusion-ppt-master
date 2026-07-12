@@ -1,0 +1,46 @@
+<!--
+  magazine-style-a / 04_quote_image
+  Quote + Image — 金句 + 图片
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Light theme, breathing rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">身份反差 · The Twist</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">03 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Left: Text column -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#0A0A0A" letter-spacing="0.1em" font-weight="700">BUT</text>
+  <text x="60" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#0A0A0A">我不是程序员。</text>
+  <text x="60" y="200" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#333333">
+    <tspan x="60" dy="0">大学毕业之后再也没写过一行代码。过去十年做的是 UI 设计和 AI 特效。</tspan>
+  </text>
+
+  <!-- Callout -->
+  <rect x="60" y="280" width="500" height="120" fill="#F5F5F5"/>
+  <text x="80" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">"这东西在三年前，</text>
+  <text x="80" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#0A0A0A">  需要一个十人团队做一年。"</text>
+  <text x="80" y="380" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">— 一个观察者的判断</text>
+
+  <!-- Right: Image placeholder -->
+  <rect x="600" y="100" width="620" height="400" fill="#F0F0F0"/>
+  <text x="910" y="305" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#AAAAAA" text-anchor="middle">[Image Slot · 16:10]</text>
+  <text x="910" y="330" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#CCCCCC" text-anchor="middle">Product screenshot or chart</text>
+
+  <!-- Caption -->
+  <text x="620" y="520" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888">CodePilot · 产品截图</text>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">Page 03 · 我不是程序员</text>
+  <text x="1220" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" text-anchor="end">— · —</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

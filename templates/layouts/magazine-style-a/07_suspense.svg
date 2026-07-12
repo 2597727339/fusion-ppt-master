@@ -1,0 +1,42 @@
+<!--
+  magazine-style-a / 07_suspense
+  Hero Question — 悬念问题页
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Hero dark theme, breathing rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: dark hero -->
+  <rect width="1280" height="720" fill="#0A0A0A"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#FFFFFF" letter-spacing="0.15em" font-weight="700">留给你的问题</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">24 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#333333" stroke-width="1"/>
+
+  <!-- Centered question content -->
+  <g id="suspense-content" transform="translate(640, 360)" text-anchor="middle">
+    <!-- Kicker -->
+    <text x="0" y="-100" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#FFFFFF" letter-spacing="0.2em" font-weight="700">The Question</text>
+
+    <!-- Hero question text -->
+    <text x="0" y="-40" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#FFFFFF" letter-spacing="-0.01em">你的公司里，</text>
+    <text x="0" y="10" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#FFFFFF" letter-spacing="-0.01em">哪些岗位本来就</text>
+    <text x="0" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#FFFFFF" letter-spacing="-0.01em">不应该由人来做？</text>
+
+    <!-- Lead / explanation -->
+    <text x="0" y="120" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#888888">这个问题，不是技术问题，是架构问题。</text>
+  </g>
+
+  <!-- Accent element: thin colored line -->
+  <line x1="560" y1="500" x2="720" y2="500" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">Page 24 · The Question</text>
+  <text x="1220" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666" text-anchor="end">— · —</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#333333" stroke-width="1"/>
+</svg>

@@ -1,0 +1,262 @@
+{
+  "academic_defense": {
+    "summary": "Thesis defense, academic presentations, research progress reports, grant applications.",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "page_types": ["cover", "toc", "chapter", "content", "ending"]
+  },
+  "ai_ops": {
+    "summary": "Telecom AI operations architecture, IT system overviews, digital transformation proposals, smart infrastructure reports.",
+    "canvas_format": "ppt169",
+    "page_count": 6,
+    "page_types": ["cover", "toc", "chapter", "content", "ending", "reference_style"]
+  },
+  "government_blue": {
+    "summary": "Key project briefings, Five-Year Plan presentations, work summaries, investment promotion, policy interpretation.",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "page_types": ["cover", "toc", "chapter", "content", "ending"]
+  },
+  "government_red": {
+    "summary": "Government briefings, policy interpretation, work summaries, project introductions, investment promotion.",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "page_types": ["cover", "toc", "chapter", "content", "ending"]
+  },
+  "medical_university": {
+    "summary": "Medical academic reports, case discussions, research presentations, hospital work reports, medical education and training.",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "page_types": ["cover", "toc", "chapter", "content", "ending"]
+  },
+  "pixel_retro": {
+    "summary": "Tech talks, programming tutorials, game introductions, geek-style showcases.",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "page_types": ["cover", "toc", "chapter", "content", "ending"]
+  },
+  "psychology_attachment": {
+    "summary": "Psychotherapy training, academic lectures, counseling case analysis, professional sharing.",
+    "canvas_format": "ppt169",
+    "page_count": 5,
+    "page_types": ["cover", "toc", "chapter", "content", "ending"]
+  },
+  "magazine-style-a": {
+    "summary": "Editorial-style decks with hero covers, big-number data pages, left-text-right-image layouts, image grids, pipeline/process slides, hero questions, big quotes, before/after comparisons, and lead-image side-text pages. Internalized from the local editorial HTML patterns and adapted for PPT SVG.",
+    "source": "references/guizang-layouts.md (12 PPTX SVG layouts)",
+    "canvas_format": "ppt169",
+    "layouts": {
+      "01_cover": {
+        "page_type": "cover",
+        "rhythm": "anchor",
+        "theme": "hero_dark",
+        "summary": "Hero cover: kicker + h-hero title + h-sub subtitle + lead paragraph + meta row. Vertical center, dark background."
+      },
+      "02_chapter": {
+        "page_type": "chapter_divider",
+        "rhythm": "anchor",
+        "theme": "hero_light",
+        "summary": "Act divider: kicker + single-word h-hero title + one-line lead. Alternates hero light/dark with Layout 1."
+      },
+      "03a_data_hero": {
+        "page_type": "big_numbers",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "3x2 or 4x2 stat-card grid: label → big number → note. White background for number readability."
+      },
+      "03b_content_abstract": {
+        "page_type": "content_abstract",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Abstract content page with title and bullet points, no special visualization."
+      },
+      "03c_content_image_text": {
+        "page_type": "content_image_text",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Left text + right image (16:10 or 4:3). Grid 7:5 ratio. Text column uses flex with callout pinned to bottom."
+      },
+      "04_quote_image": {
+        "page_type": "quote_with_image",
+        "rhythm": "breathing",
+        "theme": "light",
+        "summary": "Left column: kicker + large headline + lead + callout with source. Right column: image in standard ratio."
+      },
+      "05_image_grid": {
+        "page_type": "image_grid",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "3x2 or 2x3 image grid with captions. Fixed heights per cell, object-fit: cover."
+      },
+      "06_pipeline": {
+        "page_type": "pipeline_process",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Two-column pipeline: text pipeline + video/media pipeline. Steps with nb → title → desc structure."
+      },
+      "07_suspense": {
+        "page_type": "hero_question",
+        "rhythm": "breathing",
+        "theme": "hero_dark",
+        "summary": "Hero question/suspense page: single large question in 3-line format. Max whitespace."
+      },
+      "08_big_quote": {
+        "page_type": "big_quote",
+        "rhythm": "breathing",
+        "theme": "dark",
+        "summary": "Big serif quote + attribution. Dark background for ceremony. Serif font for quote text."
+      },
+      "09_comparison": {
+        "page_type": "comparison",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Before/After two-column comparison. Left dimmed (opacity .55), right full brightness. Border-left accent on each."
+      },
+      "10_lead_image_side_text": {
+        "page_type": "lead_image_side_text",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Large body text left (8:4 grid) + portrait image right (3:4). For pages with high text volume."
+      }
+    }
+  },
+  "swiss-international": {
+    "summary": "PPTX-specific Swiss International SVG family with strict grids, hairline rules, high-contrast typography, and minimal decoration. The Sxx basenames are separate from the HTML data-layout registry.",
+    "source": "templates/layouts/swiss-international/design_spec.md (22 PPTX SVG layouts)",
+    "canvas_format": "ppt169",
+    "layouts": {
+      "S01_index_cover": {
+        "page_type": "cover",
+        "rhythm": "anchor",
+        "theme": "light",
+        "summary": "Swiss cover: large grid-aligned title, kicker above, metadata row below, hairline rule separator. Pure typographic."
+      },
+      "S02_vertical_timeline": {
+        "page_type": "timeline",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Vertical timeline with numbered milestones connected by hairline rule. Left number column, right description."
+      },
+      "S03_split_statement": {
+        "page_type": "statement",
+        "rhythm": "breathing",
+        "theme": "light",
+        "summary": "Split page: left half typographic statement (large type, tight tracking), right half whitespace or subtle image."
+      },
+      "S04_asymmetric_grid": {
+        "page_type": "content",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Asymmetric grid layout: 2:3 or 3:2 ratio. Left column kicker + title, right column body text in Swiss grid."
+      },
+      "S05_data_table": {
+        "page_type": "data_table",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Raw data table with Swiss styling: hairline borders, tabular nums, left-aligned text, right-aligned numbers."
+      },
+      "S06_quadrant": {
+        "page_type": "quadrant",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "2x2 quadrant with hairline rule cross. Each quadrant: number + title + brief description."
+      },
+      "S07_fullbleed_image": {
+        "page_type": "fullbleed_image",
+        "rhythm": "breathing",
+        "theme": "light",
+        "summary": "Full-bleed photograph with typographic overlay. White text on dark area or black text on light area. Hairline caption."
+      },
+      "S08_three_column": {
+        "page_type": "three_column",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Three equal columns separated by hairline rules. Each: icon/number + title + 2-3 line description."
+      },
+      "S09_step_process": {
+        "page_type": "step_process",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Horizontal step process: numbered circles connected by arrow rule. Max 5 steps per row."
+      },
+      "S10_mixed_ratio": {
+        "page_type": "mixed_ratio",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Mixed ratio grid: 2:1 + 1:1 image-to-text blocks. Asymmetric but balanced."
+      },
+      "S11_chapter_divider": {
+        "page_type": "chapter_divider",
+        "rhythm": "anchor",
+        "theme": "dark",
+        "summary": "Swiss chapter divider: dark background, white number (large), chapter title below hairline rule."
+      },
+      "S12_infographic": {
+        "page_type": "infographic",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Infographic page: data visualization with Swiss grid. Charts built from pure SVG rects/lines."
+      },
+      "S13_callout": {
+        "page_type": "callout",
+        "rhythm": "breathing",
+        "theme": "light",
+        "summary": "Single callout block: large left-border accent, quote text, attribution. Minimal surrounding content."
+      },
+      "S14_comparison_bar": {
+        "page_type": "comparison_bar",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Horizontal bar comparison: labels left, bars right. Accent color for primary, gray for secondary."
+      },
+      "S15_masonry": {
+        "page_type": "masonry",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Masonry grid: 2 columns of varying-height content blocks. Each block: image + caption."
+      },
+      "S16_metric_card": {
+        "page_type": "metric_card",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Metric cards in grid: number (tabular nums) + label + trend indicator. 2x2 or 3x2."
+      },
+      "S17_quote_dark": {
+        "page_type": "quote_dark",
+        "rhythm": "breathing",
+        "theme": "hero_dark",
+        "summary": "Dark hero quote: white serif text, centered, hairline above and below. One attribution line."
+      },
+      "S18_team_roster": {
+        "page_type": "team_roster",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Team roster: photo (square crop) + name + role + 1-line bio. Grid 2x2 or 3x2."
+      },
+      "S19_agenda": {
+        "page_type": "agenda",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Agenda/timeline: time label + title + description. Connected by vertical hairline rule."
+      },
+      "S20_framed_photo": {
+        "page_type": "framed_photo",
+        "rhythm": "breathing",
+        "theme": "light",
+        "summary": "Single photograph in Swiss frame: generous padding, hairline border, caption below rule."
+      },
+      "S21_end_slide": {
+        "page_type": "ending",
+        "rhythm": "anchor",
+        "theme": "light",
+        "summary": "Swiss ending: large thank you / contact info / QR code area. Typographic, no decoration."
+      },
+      "S22_reference": {
+        "page_type": "reference",
+        "rhythm": "dense",
+        "theme": "light",
+        "summary": "Reference/sources page: numbered list, small type, hairline separator from main content."
+      }
+    }
+  }
+}

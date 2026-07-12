@@ -1,0 +1,65 @@
+<!--
+  swiss-international / S06_quadrant
+  2x2 Quadrant — 四象限
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">METHODOLOGY · 06</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">06 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600">MATRIX · 优先级矩阵</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="200" fill="#0A0A0A">影响 vs 投入</text>
+
+  <!-- Axis labels -->
+  <text x="30" y="360" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600" transform="rotate(-90, 30, 360)">IMPACT →</text>
+  <text x="640" y="620" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600" text-anchor="middle">EFFORT →</text>
+
+  <!-- Quadrant grid -->
+  <!-- Center cross -->
+  <line x1="640" y1="180" x2="640" y2="580" stroke="#E5E5E5" stroke-width="1"/>
+  <line x1="60" y1="380" x2="1220" y2="380" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Quadrant 1: High Impact, Low Effort (top-left) -->
+  <rect x="60" y="180" width="580" height="200" fill="#F5F5F5"/>
+  <text x="80" y="215" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E63946" font-weight="700" letter-spacing="0.1em">DO FIRST</text>
+  <text x="80" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#0A0A0A">快速取胜</text>
+  <text x="80" y="285" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• Skill 文件标准化</text>
+  <text x="80" y="310" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• spec_lock 执行契约</text>
+  <text x="80" y="335" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• 反 slop 清单</text>
+
+  <!-- Quadrant 2: High Impact, High Effort (top-right) -->
+  <rect x="640" y="180" width="580" height="200" fill="#F0F0F0"/>
+  <text x="660" y="215" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#0A0A0A" font-weight="700" letter-spacing="0.1em">PLAN CAREFULLY</text>
+  <text x="660" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#0A0A0A">长期投资</text>
+  <text x="660" y="285" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• 32 个 SVG 布局转换</text>
+  <text x="660" y="310" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• 融合编排器</text>
+
+  <!-- Quadrant 3: Low Impact, Low Effort (bottom-left) -->
+  <rect x="60" y="380" width="580" height="200" fill="#FAFAFA"/>
+  <text x="80" y="415" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" font-weight="700" letter-spacing="0.1em">FILL IN</text>
+  <text x="80" y="450" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#0A0A0A">顺手完成</text>
+  <text x="80" y="485" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• 文档翻译</text>
+  <text x="80" y="510" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• 样式微调</text>
+
+  <!-- Quadrant 4: Low Impact, High Effort (bottom-right) -->
+  <rect x="640" y="380" width="580" height="200" fill="#F5F5F5"/>
+  <text x="660" y="415" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" font-weight="700" letter-spacing="0.1em">AVOID</text>
+  <text x="660" y="450" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#0A0A0A">避免投入</text>
+  <text x="660" y="485" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• 过度工程化</text>
+  <text x="660" y="510" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">• 重复造轮子</text>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

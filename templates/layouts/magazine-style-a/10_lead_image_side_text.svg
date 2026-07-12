@@ -1,0 +1,51 @@
+<!--
+  magazine-style-a / 10_lead_image_side_text
+  Lead Image + Side Text — 图文混排
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Light theme, dense rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">Design First · 设计先行</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">08 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Left: Text column (8 parts) -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#0A0A0A" letter-spacing="0.1em" font-weight="700">Phase 01 · 设计阶段</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#0A0A0A">设计先行 · 2 周</text>
+
+  <text x="60" y="200" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" fill="#333333">
+    <tspan x="60" dy="0">在 Figma 中完成视觉探索与设计系统，网格 / 排版 / 颜色变量 / 可复用组件，</tspan>
+    <tspan x="60" dy="26">桌面和移动端稿件几轮反馈迭代。</tspan>
+  </text>
+
+  <text x="60" y="270" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#666666">
+    <tspan x="60" dy="0">两周之内，视觉风格、粗略结构、方向性内容全部稳定。这是扎实的传统设计流程——</tspan>
+    <tspan x="60" dy="22">在这里还没什么新鲜事。</tspan>
+  </text>
+
+  <!-- Callout -->
+  <rect x="60" y="330" width="560" height="80" fill="#F5F5F5"/>
+  <text x="80" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#0A0A0A">"This phase was pretty standard.</text>
+  <text x="80" y="385" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#0A0A0A"> Just a solid Web design process."</text>
+  <text x="80" y="400" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888">— Luke Wroblewski</text>
+
+  <!-- Right: Image placeholder (4 parts) -->
+  <rect x="660" y="100" width="560" height="400" fill="#F0F0F0"/>
+  <text x="940" y="305" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#AAAAAA" text-anchor="middle">[Image Slot · 3:4]</text>
+  <text x="940" y="330" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#CCCCCC" text-anchor="middle">Figma Design System</text>
+  <text x="940" y="520" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="middle">Figma · Design System</text>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">Page 08 · Design First</text>
+  <text x="1220" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" text-anchor="end">约 2 周</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

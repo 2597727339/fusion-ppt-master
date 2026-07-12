@@ -1,0 +1,46 @@
+<!--
+  magazine-style-a / 01_cover
+  Hero Cover — 开场封面
+  Converted from guizang-ppt-skill/layouts.md Layout 1
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: dark -->
+  <rect width="1280" height="720" fill="#0A0A0A"/>
+
+  <!-- Chrome: top-left context label -->
+  <text x="60" y="48" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#888888" letter-spacing="0.05em">A Talk · 2026.04.22</text>
+
+  <!-- Chrome: top-right page number -->
+  <text x="1220" y="48" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#888888" text-anchor="end" letter-spacing="0.05em">Vol.01</text>
+
+  <!-- Kicker -->
+  <text x="640" y="200" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#CC785C" text-anchor="middle" letter-spacing="0.1em">私享会 · 李继刚</text>
+
+  <!-- Hero Title -->
+  <text x="640" y="290" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="72" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.02em">一人公司</text>
+
+  <!-- Subtitle -->
+  <text x="640" y="350" font-family="Georgia, SimSun, serif" font-size="28" fill="#F2F0EF" text-anchor="middle" letter-spacing="0.02em">被 AI 折叠的组织</text>
+
+  <!-- Lead paragraph -->
+  <text x="640" y="420" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#888888" text-anchor="middle">一个 AI 创作者 —— 在 64 天里做了 11 万行代码、在 9 个平台上持续输出，</text>
+  <text x="640" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#888888" text-anchor="middle">生活节奏几乎没有被改变。</text>
+
+  <!-- Meta row -->
+  <text x="640" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" letter-spacing="0.05em">歸藏 Guizang · 独立创作者 / CodePilot 作者</text>
+
+  <!-- Foot: bottom-left -->
+  <text x="60" y="672" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#666666">一场关于 AI · 组织 · 个体的分享</text>
+
+  <!-- Foot: bottom-right -->
+  <text x="1220" y="672" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#666666" text-anchor="end">— 2026 —</text>
+
+  <!-- Hairline bottom rule -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#262629" stroke-width="1"/>
+</svg>

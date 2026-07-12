@@ -1,0 +1,69 @@
+<!--
+  swiss-international / S19_agenda
+  Agenda / Timeline — 议程时间线
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">AGENDA · 19</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">19 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600">PIPELINE · 六个阶段</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="200" fill="#0A0A0A">Pipeline 概览</text>
+
+  <!-- Horizontal timeline with 6 steps -->
+  <line x1="60" y1="250" x2="1220" y2="250" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Step 1: Source -->
+  <rect x="58" y="230" width="4" height="40" fill="#0A0A0A"/>
+  <text x="60" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="middle">01</text>
+  <text x="60" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A" text-anchor="middle">Source</text>
+  <text x="60" y="315" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="middle">PDF/DOCX</text>
+
+  <!-- Step 2: Narrative -->
+  <rect x="252" y="230" width="4" height="40" fill="#0A0A0A"/>
+  <text x="254" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="middle">02</text>
+  <text x="254" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A" text-anchor="middle">Narrative</text>
+  <text x="254" y="315" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="middle">7 arcs</text>
+
+  <!-- Step 3: Design -->
+  <rect x="447" y="230" width="4" height="40" fill="#0A0A0A"/>
+  <text x="449" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="middle">03</text>
+  <text x="449" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A" text-anchor="middle">Design</text>
+  <text x="449" y="315" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="middle">40 styles</text>
+
+  <!-- Step 4: Strategist -->
+  <rect x="641" y="230" width="4" height="40" fill="#0A0A0A"/>
+  <text x="643" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="middle">04</text>
+  <text x="643" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A" text-anchor="middle">Strategist</text>
+  <text x="643" y="315" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="middle">8 confirm</text>
+
+  <!-- Step 5: Execute -->
+  <rect x="835" y="230" width="4" height="40" fill="#0A0A0A"/>
+  <text x="837" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#0A0A0A" text-anchor="middle">05</text>
+  <text x="837" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A" text-anchor="middle">Execute</text>
+  <text x="837" y="315" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="middle">SVG gen</text>
+
+  <!-- Step 6: Export -->
+  <rect x="1030" y="230" width="4" height="40" fill="#E63946"/>
+  <text x="1032" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946" text-anchor="middle">06</text>
+  <text x="1032" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#0A0A0A" text-anchor="middle">Export</text>
+  <text x="1032" y="315" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="middle">PPTX</text>
+
+  <!-- Arrow from step 6 -->
+  <line x1="1032" y1="325" x2="1032" y2="345" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

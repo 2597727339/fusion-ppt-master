@@ -1,0 +1,55 @@
+<!--
+  magazine-style-a / 09_comparison
+  Before/After Comparison — 并列对比
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Light theme, dense rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">旧 vs 新 · The Shift</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">12 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Kicker + Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#0A0A0A" letter-spacing="0.1em" font-weight="700">Before / After · 范式转变</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#0A0A0A">从交接到共建</text>
+
+  <!-- Divider line -->
+  <line x1="640" y1="180" x2="640" y2="620" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Left column: Before (weakened) -->
+  <text x="80" y="210" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.1em" font-weight="700">Before · 旧模式</text>
+  <text x="80" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0A0A0A">设计 → 开发 → 交接</text>
+
+  <!-- Bullet points -->
+  <text x="80" y="300" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" opacity="0.55">• 设计师在 Figma 做稿</text>
+  <text x="80" y="335" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" opacity="0.55">• 开发者盯着文件翻译像素</text>
+  <text x="80" y="370" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" opacity="0.55">• 反复 PR 沟通对齐</text>
+  <text x="80" y="405" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" opacity="0.55">• 非技术人员无法触碰代码</text>
+
+  <!-- Right column: After (full brightness) -->
+  <text x="680" y="210" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.1em" font-weight="700">After · 新模式</text>
+  <text x="680" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0A0A0A">同工具 · 并行 · 共建</text>
+
+  <!-- Bullet points -->
+  <text x="680" y="300" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">• 三个角色同时在 Intent 工作</text>
+  <text x="680" y="335" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">• agents.md 作为共享上下文</text>
+  <text x="680" y="370" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">• 代理处理对齐 / 冲突 / 动画</text>
+  <text x="680" y="405" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">• 任何人都能安全贡献代码</text>
+
+  <!-- Accent: left border on right column -->
+  <rect x="670" y="200" width="3" height="220" fill="#E63946"/>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">Page 12 · 范式转变</text>
+  <text x="1220" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" text-anchor="end">Before / After</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

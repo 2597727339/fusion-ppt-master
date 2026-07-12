@@ -1,0 +1,53 @@
+<!--
+  swiss-international / S14_comparison_bar
+  Comparison Bars — 对比条形图
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">METHODOLOGY · 14</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">14 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600">COMPARISON · 对比</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="200" fill="#0A0A0A">技能对比</text>
+
+  <!-- Comparison bars -->
+  <!-- Bar 1: fusion-ppt-master -->
+  <text x="60" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">fusion-ppt-master</text>
+  <rect x="280" y="205" width="870" height="20" fill="#0A0A0A"/>
+  <text x="1160" y="220" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" font-weight="700" text-anchor="end">100%</text>
+
+  <!-- Bar 2: ppt-master -->
+  <text x="60" y="290" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">ppt-master</text>
+  <rect x="280" y="275" width="696" height="20" fill="#333333"/>
+  <text x="990" y="290" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" font-weight="700" text-anchor="end">80%</text>
+
+  <!-- Bar 3: dashiai-ppt-structure -->
+  <text x="60" y="360" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">dashiai-ppt-structure</text>
+  <rect x="280" y="345" width="435" height="20" fill="#888888"/>
+  <text x="729" y="360" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" font-weight="700" text-anchor="end">50%</text>
+
+  <!-- Bar 4: huashu-design -->
+  <text x="60" y="430" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">huashu-design</text>
+  <rect x="280" y="415" width="348" height="20" fill="#888888"/>
+  <text x="642" y="430" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" font-weight="700" text-anchor="end">40%</text>
+
+  <!-- Bar 5: guizang-ppt-skill -->
+  <text x="60" y="500" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A">guizang-ppt-skill</text>
+  <rect x="280" y="485" width="261" height="20" fill="#CCCCCC"/>
+  <text x="555" y="500" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#0A0A0A" font-weight="700" text-anchor="end">30%</text>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

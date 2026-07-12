@@ -1,0 +1,46 @@
+<!--
+  magazine-style-a / 02_chapter
+  Chapter Divider — 章节分隔页
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Light theme, hero light for chapter divider
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome: top-left kicker -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">ACT II · WORKFLOW</text>
+
+  <!-- Chrome: top-right page number -->
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">05 / 24</text>
+
+  <!-- Hairline rule below chrome -->
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Centered chapter divider content -->
+  <g id="chapter-content" transform="translate(640, 360)" text-anchor="middle">
+    <!-- Kicker -->
+    <text x="0" y="-80" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.2em" font-weight="700">ACT II</text>
+
+    <!-- Hero title -->
+    <text x="0" y="-20" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#0A0A0A">硬数据</text>
+
+    <!-- Subtitle / lead -->
+    <text x="0" y="30" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#666666">先看数字，再谈方法。</text>
+  </g>
+
+  <!-- Accent element: thin horizontal line under content -->
+  <line x1="540" y1="440" x2="740" y2="440" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">第一幕引子</text>
+  <text x="1220" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" text-anchor="end">— · —</text>
+
+  <!-- Bottom rule -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

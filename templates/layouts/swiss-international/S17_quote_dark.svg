@@ -1,0 +1,39 @@
+<!--
+  swiss-international / S17_quote_dark
+  Dark Quote — 暗色引用
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Hero dark theme, breathing rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: dark hero -->
+  <rect width="1280" height="720" fill="#0A0A0A"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#FFFFFF" letter-spacing="0.15em" font-weight="700">THE TAKEAWAY</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">17 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#333333" stroke-width="1"/>
+
+  <!-- Centered quote -->
+  <g id="quote-content" transform="translate(640, 360)" text-anchor="middle">
+    <!-- Big quote mark -->
+    <text x="0" y="-120" font-family="Georgia, 'Times New Roman', serif" font-size="80" font-weight="700" fill="#E63946" opacity="0.5">"</text>
+
+    <!-- Quote text -->
+    <text x="0" y="-50" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="200" fill="#FFFFFF">没有交接，</text>
+    <text x="0" y="0" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="200" fill="#FFFFFF">所有人都在构建。</text>
+
+    <!-- Translation -->
+    <text x="0" y="60" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#888888">Without the handoff, everyone builds.</text>
+
+    <!-- Attribution -->
+    <text x="0" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">— Luke Wroblewski · 2026.04.16</text>
+  </g>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#333333" stroke-width="1"/>
+</svg>

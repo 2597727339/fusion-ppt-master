@@ -1,0 +1,45 @@
+<!--
+  magazine-style-a / 08_big_quote
+  Big Quote — 大引用页
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Dark theme, breathing rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: dark -->
+  <rect width="1280" height="720" fill="#0A0A0A"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#FFFFFF" letter-spacing="0.15em" font-weight="700">The Takeaway · 核心金句</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">18 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#333333" stroke-width="1"/>
+
+  <!-- Centered quote content -->
+  <g id="quote-content" transform="translate(640, 340)" text-anchor="middle">
+    <!-- Kicker -->
+    <text x="0" y="-80" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#FFFFFF" letter-spacing="0.2em" font-weight="700">Quote · 金句</text>
+
+    <!-- Big quote -->
+    <text x="0" y="-20" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#FFFFFF">"没有交接，</text>
+    <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#FFFFFF">  所有人都在构建。"</text>
+
+    <!-- English original -->
+    <text x="0" y="80" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#888888">Without the handoff, everyone builds.</text>
+    <text x="0" y="105" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#888888">And that makes all the difference.</text>
+
+    <!-- Attribution -->
+    <text x="0" y="145" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">— Luke Wroblewski · 2026.04.16</text>
+  </g>
+
+  <!-- Accent element: thin colored line above quote -->
+  <line x1="580" y1="200" x2="700" y2="200" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666">Page 18 · 金句</text>
+  <text x="1220" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#666666" text-anchor="end">— · —</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#333333" stroke-width="1"/>
+</svg>
