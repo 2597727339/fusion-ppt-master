@@ -105,6 +105,17 @@ Migration preserves `deck-spec.json`, creates `spec_lock.md`, and marks the mapp
 
 The package includes its scripts, templates, references, HTML seeds, dependency manifest, and environment example. It must not rely on junctions, wrappers, or runtime reads from separate narrative, design, rhythm, or PPT production skill folders.
 
+## Upstream Skill Provenance
+
+This project was assembled by referencing and adapting material from four upstream skills. It is a self-contained runtime, not an endorsed fork or an upstream runtime dependency.
+
+- [ppt-master](https://github.com/hugohe3/ppt-master) by Hugo He: editable PPTX production, source conversion, project workflow, SVG processing, and export foundations. MIT.
+- [huashu-design](https://github.com/alchaincyf/huashu-design) by alchaincyf (花叔 · 花生): design-direction guidance, visual-review practice, and presentation design references. MIT.
+- [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) by op7418: page rhythm, Magazine/Swiss presentation patterns, HTML templates, and related design references. AGPL-3.0.
+- [dashiAI-ppt-skill](https://github.com/chuspeeism/dashiAI-ppt-skill) by chuspeeism: audience-first narrative framing and story-shape guidance. AGPL-3.0.
+
+The distribution includes AGPL-3.0-derived material, so the combined repository is distributed under AGPL-3.0. Full provenance, copyright notices, and upstream license links are in [UPSTREAM_SKILL_NOTICES.md](UPSTREAM_SKILL_NOTICES.md).
+
 ## License
 
-MIT License. See `LICENSE`.
+This combined distribution is licensed under AGPL-3.0. See [LICENSE](LICENSE) and [UPSTREAM_SKILL_NOTICES.md](UPSTREAM_SKILL_NOTICES.md).
