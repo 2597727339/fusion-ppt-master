@@ -78,6 +78,17 @@ macOS/Linux:
 
 The command exits nonzero on missing assets, broken links, invalid JSON/Python/Node scripts, index drift, noncompliant SVG templates, external source-skill paths, missing dependencies, HTML seed failure, or exporter startup failure.
 
+## Optional local final review
+
+Fusion remains the owner of planning, SVG sources, editable PPTX export, and native PowerPoint validation. When the user explicitly asks for `officecli-local-review` or a post-export second opinion, [`workflows/officecli-local-review.md`](workflows/officecli-local-review.md) uses Fusion's bundled Unicode-safe renderer to produce local PDF/PNG evidence.
+
+This optional workflow uses only local PowerShell, LibreOffice, and Poppler. It has no account flow, network service, publishing path, or proprietary OfficeCLI executable dependency. Rendering failure stays advisory unless strict review was explicitly requested.
+
+```bash
+<python> scripts/officecli_local_review_adapter.py \
+  --pptx <deck.pptx>
+```
+
 ## Layout resources
 
 | Family | Count | Directory |
@@ -110,6 +121,8 @@ Migration preserves `deck-spec.json`, creates `spec_lock.md`, and marks the mapp
 ## Independence boundary
 
 The package includes its scripts, templates, references, HTML seeds, dependency manifest, and environment example. It must not rely on junctions, wrappers, or runtime reads from separate narrative, design, rhythm, or PPT production skill folders.
+
+Optional review adapters may call separately installed tools only after explicit routing. They are not part of the required runtime, and their absence must not block the core pipeline.
 
 ## Upstream Skill Provenance
 

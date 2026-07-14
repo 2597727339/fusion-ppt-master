@@ -614,6 +614,7 @@ def validate_runtime(validator: Validator) -> None:
         "beautify_inventory.py",
         "pptx_intake.py",
         "extract_svg_assets.py",
+        "officecli_local_review_adapter.py",
     ]
     entrypoint_errors: list[str] = []
     for filename in optional_python_entrypoints:
