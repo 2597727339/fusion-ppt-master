@@ -1,7 +1,6 @@
 ---
 name: fusion-ppt-master
 description: 真正独立的融合型 PPT 技能。内置叙事架构、视觉设计、页面节奏、SVG 生产与可编辑 PPTX 导出能力，不调用 dashiai、huashu、guizang 或 ppt-master 的外部 skill 本体。当用户要求制作 PPT、演示文稿、融资路演、汇报、课件、提案、杂志风或瑞士风 deck 时使用。未明确要求 HTML 时，默认交付可编辑 PPTX。
-version: 2.0.0
 ---
 
 # Fusion PPT Master
@@ -192,6 +191,8 @@ python scripts/bootstrap_runtime.py --with-node
 4. 确认正文不是整页位图；
 5. 读取质量检查和导出日志后再宣布完成。
 
+用户明确要求导出后视觉复核、`officecli-local-review` 或第二意见时，才进入 [`workflows/officecli-local-review.md`](workflows/officecli-local-review.md)。该流程只使用 Fusion 内置的本地渲染器，默认关闭，只读取最终 PPTX 并写独立审查证据，不得替代 Fusion 生成、可编辑性检查或 PowerPoint 实机门。
+
 ## 布局与风格资源
 
 - Magazine Style A：`templates/layouts/magazine-style-a/`，12 个 SVG。
@@ -214,6 +215,7 @@ python scripts/bootstrap_runtime.py --with-node
 - 原四个 skill 可以在系统中单独存在，但不是本 skill 的运行依赖。
 - 不得通过目录联接、包装器或外部 skill 路径补齐缺失文件。
 - 所需脚本、模板、参考文档、HTML 资源和依赖清单必须位于本目录。
+- 内置 `officecli-local-review` 只调用本地 PowerShell、LibreOffice 和 Poppler，不读取独立 OfficeCLI skill，也不依赖专有 OfficeCLI 二进制或任何远程服务。
 - 将本目录复制到另一位置后，结构校验和 PPTX 导出仍应可运行。
 
 ## 调用示例

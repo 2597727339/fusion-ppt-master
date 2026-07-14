@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fusion PPT Master"
+  short_description: "Create self-contained editable PPTX presentations"
+  default_prompt: "Use $fusion-ppt-master to create a self-contained, editable PPTX from my source material."
