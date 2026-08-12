@@ -17,7 +17,7 @@ The four roles are internal pipeline phases, not external skill wrappers. This i
 ## Location
 
 ```
-C:\Users\t2597\.claude\skills\fusion-ppt-master\
+<skill-directory>/
 ```
 
 ## Critical Files to Audit
