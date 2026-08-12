@@ -1,0 +1,69 @@
+<!--
+  magazine-style-a / 03a_data_hero
+  Big Numbers Grid — 数据大字报
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Light theme, dense rhythm
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">过去 64 天 · 开发篇</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">Act I / Dev · 02 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Kicker + Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#0A0A0A" letter-spacing="0.1em" font-weight="700">一个人，做了什么。</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#0A0A0A">过去 64 天</text>
+  <text x="60" y="190" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#666666">从 0 到开源 CodePilot。</text>
+
+  <!-- 3x2 Data Cards Grid -->
+  <!-- Row 1 -->
+  <!-- Card 1: Duration -->
+  <rect x="60" y="220" width="373" height="180" fill="#F5F5F5"/>
+  <text x="80" y="250" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.1em" font-weight="600">DURATION</text>
+  <text x="80" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#0A0A0A">64 <tspan font-size="28" fill="#666666">天</tspan></text>
+  <text x="80" y="370" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">从 0 到现在</text>
+
+  <!-- Card 2: Lines of Code -->
+  <rect x="453" y="220" width="373" height="180" fill="#F5F5F5"/>
+  <text x="473" y="250" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.1em" font-weight="600">LINES OF CODE</text>
+  <text x="473" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#0A0A0A">110K+</text>
+  <text x="473" y="370" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">一行行写到 11 万+</text>
+
+  <!-- Card 3: GitHub Stars -->
+  <rect x="847" y="220" width="373" height="180" fill="#F5F5F5"/>
+  <text x="867" y="250" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.1em" font-weight="600">GITHUB STARS</text>
+  <text x="867" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#0A0A0A">5,166</text>
+  <text x="867" y="370" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">一个开源仓库</text>
+
+  <!-- Row 2 -->
+  <!-- Card 4: Downloads -->
+  <rect x="60" y="420" width="373" height="180" fill="#F5F5F5"/>
+  <text x="80" y="450" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.1em" font-weight="600">DOWNLOADS</text>
+  <text x="80" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#0A0A0A">41K+</text>
+  <text x="80" y="570" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">装到了几万台电脑里</text>
+
+  <!-- Card 5: AI Providers -->
+  <rect x="453" y="420" width="373" height="180" fill="#F5F5F5"/>
+  <text x="473" y="450" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.1em" font-weight="600">AI PROVIDERS</text>
+  <text x="473" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#0A0A0A">19</text>
+  <text x="473" y="570" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">跨平台接入</text>
+
+  <!-- Card 6: Commits -->
+  <rect x="847" y="420" width="373" height="180" fill="#F5F5F5"/>
+  <text x="867" y="450" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.1em" font-weight="600">COMMITS</text>
+  <text x="867" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#0A0A0A">608+</text>
+  <text x="867" y="570" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">没有协作者</text>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">项目 · CodePilot | github.com/codepilot</text>
+  <text x="1220" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" text-anchor="end">Act I · Dev Numbers</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

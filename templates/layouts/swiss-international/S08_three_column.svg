@@ -1,0 +1,61 @@
+<!--
+  swiss-international / S08_three_column
+  Three Column — 三列布局
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">METHODOLOGY · 08</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">08 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600">THREE FORCES</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="200" fill="#0A0A0A">三个核心能力</text>
+
+  <!-- Three columns -->
+  <!-- Col 1 -->
+  <rect x="60" y="190" width="373" height="400" fill="#F5F5F5"/>
+  <text x="80" y="230" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="48" font-weight="200" fill="#E63946">01</text>
+  <text x="80" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0A0A0A">Narrative</text>
+  <text x="80" y="320" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">受众优先的叙事架构</text>
+  <text x="80" y="355" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">
+    <tspan x="80" dy="20">7 种叙事弧分类，</tspan>
+    <tspan x="80" dy="22">论点规范，证据缺口识别。</tspan>
+    <tspan x="80" dy="22">每页一个 job + takeaway。</tspan>
+  </text>
+
+  <!-- Col 2 -->
+  <rect x="453" y="190" width="373" height="400" fill="#F5F5F5"/>
+  <text x="473" y="230" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="48" font-weight="200" fill="#E63946">02</text>
+  <text x="473" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0A0A0A">Design</text>
+  <text x="473" y="320" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">40 种风格推荐数据库</text>
+  <text x="473" y="355" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">
+    <tspan x="473" dy="20">品位锚点，反 slop 清单，</tspan>
+    <tspan x="473" dy="22">设计方向顾问模式。</tspan>
+    <tspan x="473" dy="22">保守 / 适度 / 大胆三方向。</tspan>
+  </text>
+
+  <!-- Col 3 -->
+  <rect x="847" y="190" width="373" height="400" fill="#F5F5F5"/>
+  <text x="867" y="230" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="48" font-weight="200" fill="#E63946">03</text>
+  <text x="867" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0A0A0A">Execute</text>
+  <text x="867" y="320" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">严格串行的生产管线</text>
+  <text x="867" y="355" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">
+    <tspan x="867" dy="20">8 阶段 Gate 验证，</tspan>
+    <tspan x="867" dy="22">SVG 标准，PPTX 导出。</tspan>
+    <tspan x="867" dy="22">每页重读 spec_lock。</tspan>
+  </text>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

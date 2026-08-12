@@ -1,0 +1,38 @@
+<!--
+  swiss-international / S03_split_statement
+  Split Statement — 极简陈述
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">METHODOLOGY · 03</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">03 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Centered statement -->
+  <g id="statement-content" transform="translate(640, 360)" text-anchor="middle">
+    <text x="0" y="-60" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.2em" font-weight="600">STATEMENT · 03</text>
+
+    <!-- Big statement text -->
+    <text x="0" y="0" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="200" fill="#0A0A0A" letter-spacing="-0.01em">Build it</text>
+    <text x="0" y="50" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="200" fill="#0A0A0A" letter-spacing="-0.01em">once.</text>
+    <text x="0" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="200" fill="#0A0A0A" letter-spacing="-0.01em">It runs</text>
+    <text x="0" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="200" fill="#0A0A0A" letter-spacing="-0.01em">forever.</text>
+  </g>
+
+  <!-- Accent line -->
+  <line x1="560" y1="540" x2="720" y2="540" stroke="#E63946" stroke-width="2"/>
+
+  <!-- Foot -->
+  <text x="60" y="672" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888">Statement 03</text>
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

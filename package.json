@@ -1,0 +1,12 @@
+{
+  "name": "fusion-ppt-master",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Optional browser and HTML conversion runtime for fusion-ppt-master.",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.59.1",
+    "pptxgenjs": "^4.0.1",
+    "sharp": "^0.34.5"
+  }
+}

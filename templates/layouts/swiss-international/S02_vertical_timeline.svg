@@ -1,0 +1,55 @@
+<!--
+  swiss-international / S02_vertical_timeline
+  Vertical Timeline — 纵向时间轴
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">METHODOLOGY · 02</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">02 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Kicker + Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600">EVOLUTION · 版本迭代</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="200" fill="#0A0A0A">为什么是 N+1</text>
+
+  <!-- Timeline axis -->
+  <line x1="120" y1="200" x2="120" y2="600" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Timeline nodes -->
+  <!-- Node 1: 2023 -->
+  <circle cx="120" cy="240" r="6" fill="#E63946"/>
+  <text x="150" y="235" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" letter-spacing="0.05em">2023</text>
+  <text x="150" y="265" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#0A0A0A">1<tspan font-size="20" fill="#666666">×</tspan></text>
+  <text x="150" y="290" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">Prompt Engineering Era</text>
+
+  <!-- Node 2: 2024 -->
+  <circle cx="120" cy="360" r="6" fill="#E63946"/>
+  <text x="150" y="355" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" letter-spacing="0.05em">2024</text>
+  <text x="150" y="385" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#0A0A0A">4<tspan font-size="20" fill="#666666">×</tspan></text>
+  <text x="150" y="410" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">Agent Framework Era</text>
+
+  <!-- Node 3: 2025 -->
+  <circle cx="120" cy="480" r="6" fill="#E63946"/>
+  <text x="150" y="475" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" letter-spacing="0.05em">2025</text>
+  <text x="150" y="505" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#0A0A0A">10<tspan font-size="20" fill="#666666">×</tspan></text>
+  <text x="150" y="530" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">Autonomous Skill Era</text>
+
+  <!-- Node 4: 2026 -->
+  <circle cx="120" cy="600" r="6" fill="#E63946"/>
+  <text x="150" y="595" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#888888" letter-spacing="0.05em">2026</text>
+  <text x="150" y="625" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#0A0A0A">∞</text>
+  <text x="150" y="650" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">Fused Skill Era</text>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>

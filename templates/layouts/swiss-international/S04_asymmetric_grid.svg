@@ -1,0 +1,60 @@
+<!--
+  swiss-international / S04_asymmetric_grid
+  Asymmetric Grid — 非对称网格
+
+  PPT Master SVG Standards:
+  - No <style>, class, foreignObject, animate*, script, iframe, symbol+use
+  - No rgba() — use solid opacity on children individually
+  - viewBox="0 0 1280 720"
+  - All text as <text> elements (no foreignObject)
+  - Sharp corners, strict grid, hairline rules
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background: white -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Chrome -->
+  <text x="60" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#0A0A0A" letter-spacing="0.15em" font-weight="700">METHODOLOGY · 04</text>
+  <text x="1220" y="48" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" text-anchor="end" letter-spacing="0.05em">04 / 24</text>
+  <line x1="60" y1="64" x2="1220" y2="64" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Kicker + Title -->
+  <text x="60" y="110" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#888888" letter-spacing="0.15em" font-weight="600">THREE FORCES</text>
+  <text x="60" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="200" fill="#0A0A0A">压成三个事实</text>
+
+  <!-- 3-column asymmetric grid -->
+  <!-- Col 1: Wide (7 parts) -->
+  <rect x="60" y="190" width="560" height="380" fill="#F5F5F5"/>
+  <text x="80" y="230" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">01</text>
+  <text x="80" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0A0A0A">Skill File</text>
+  <text x="80" y="310" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">纯 markdown，可手写、可重写</text>
+  <text x="80" y="340" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">
+    <tspan x="80" dy="20">每个 skill 就是一个 .md 文件，</tspan>
+    <tspan x="80" dy="20">LLM 可以直接阅读和修改。</tspan>
+    <tspan x="80" dy="20">没有编译、没有打包、没有依赖。</tspan>
+  </text>
+
+  <!-- Col 2: Medium (5 parts) -->
+  <rect x="640" y="190" width="320" height="380" fill="#F5F5F5"/>
+  <text x="660" y="230" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">02</text>
+  <text x="660" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0A0A0A">Templates</text>
+  <text x="660" y="310" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">布局即模板，模板即布局</text>
+  <text x="660" y="340" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">
+    <tspan x="660" dy="20">SVG 页面模板定义结构，</tspan>
+    <tspan x="660" dy="20">Executor 负责填充内容。</tspan>
+  </text>
+
+  <!-- Col 3: Narrow (4 parts) -->
+  <rect x="980" y="190" width="240" height="380" fill="#F5F5F5"/>
+  <text x="1000" y="230" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700" fill="#E63946">03</text>
+  <text x="1000" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#0A0A0A">Pipeline</text>
+  <text x="1000" y="310" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#666666">严格串行，绝不跳跃</text>
+  <text x="1000" y="340" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#888888">
+    <tspan x="1000" dy="20">Source → Narrative →</tspan>
+    <tspan x="1000" dy="20">Design → Strategist →</tspan>
+    <tspan x="1000" dy="20">Executor → Export</tspan>
+  </text>
+
+  <!-- Foot -->
+  <line x1="60" y1="650" x2="1220" y2="650" stroke="#E5E5E5" stroke-width="1"/>
+</svg>
