@@ -1,5 +1,7 @@
 # fusion-ppt-master
 
+![fusion-ppt-master App Icon](assets/icons/app-icon.png)
+
 `fusion-ppt-master` is a self-contained Claude Code skill for narrative planning, visual direction, page rhythm, SVG production, and editable PPTX export.
 
 It internalizes four capability areas without calling external skill directories at runtime:
