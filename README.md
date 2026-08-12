@@ -1,6 +1,6 @@
 # fusion-ppt-master
 
-`fusion-ppt-master` is a self-contained, Codex-first agent skill for narrative planning, visual direction, page rhythm, SVG production, and editable PPTX export. It is not exclusive to Claude Code and can also be installed in compatible skill-aware agents.
+`fusion-ppt-master` is a self-contained Claude Code skill for narrative planning, visual direction, page rhythm, SVG production, and editable PPTX export.
 
 It internalizes four capability areas without calling external skill directories at runtime:
 
@@ -34,13 +34,7 @@ See `SKILL.md` for the mandatory reads, blocking confirmation point, artifacts, 
 
 ## Installation
 
-For Codex, place the directory at:
-
-```text
-~/.codex/skills/fusion-ppt-master/
-```
-
-For Claude Code or another compatible host, install the same directory under that host's skill root, for example:
+Place the directory at:
 
 ```text
 ~/.claude/skills/fusion-ppt-master/
@@ -78,17 +72,6 @@ macOS/Linux:
 
 The command exits nonzero on missing assets, broken links, invalid JSON/Python/Node scripts, index drift, noncompliant SVG templates, external source-skill paths, missing dependencies, HTML seed failure, or exporter startup failure.
 
-## Optional local final review
-
-Fusion remains the owner of planning, SVG sources, editable PPTX export, and native PowerPoint validation. When the user explicitly asks for `officecli-local-review` or a post-export second opinion, [`workflows/officecli-local-review.md`](workflows/officecli-local-review.md) uses Fusion's bundled Unicode-safe renderer to produce local PDF/PNG evidence.
-
-This optional workflow uses only local PowerShell, LibreOffice, and Poppler. It has no account flow, network service, publishing path, or proprietary OfficeCLI executable dependency. Rendering failure stays advisory unless strict review was explicitly requested.
-
-```bash
-<python> scripts/officecli_local_review_adapter.py \
-  --pptx <deck.pptx>
-```
-
 ## Layout resources
 
 | Family | Count | Directory |
@@ -122,19 +105,6 @@ Migration preserves `deck-spec.json`, creates `spec_lock.md`, and marks the mapp
 
 The package includes its scripts, templates, references, HTML seeds, dependency manifest, and environment example. It must not rely on junctions, wrappers, or runtime reads from separate narrative, design, rhythm, or PPT production skill folders.
 
-Optional review adapters may call separately installed tools only after explicit routing. They are not part of the required runtime, and their absence must not block the core pipeline.
-
-## Upstream Skill Provenance
-
-This project was assembled by referencing and adapting material from four upstream skills. It is a self-contained runtime, not an endorsed fork or an upstream runtime dependency.
-
-- [ppt-master](https://github.com/hugohe3/ppt-master) by Hugo He: editable PPTX production, source conversion, project workflow, SVG processing, and export foundations. MIT.
-- [huashu-design](https://github.com/alchaincyf/huashu-design) by alchaincyf (花叔 · 花生): design-direction guidance, visual-review practice, and presentation design references. MIT.
-- [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) by op7418: page rhythm, Magazine/Swiss presentation patterns, HTML templates, and related design references. AGPL-3.0.
-- [dashiAI-ppt-skill](https://github.com/chuspeeism/dashiAI-ppt-skill) by chuspeeism: audience-first narrative framing and story-shape guidance. AGPL-3.0.
-
-The distribution includes AGPL-3.0-derived material, so the combined repository is distributed under AGPL-3.0. Full provenance, copyright notices, and upstream license links are in [UPSTREAM_SKILL_NOTICES.md](UPSTREAM_SKILL_NOTICES.md).
-
 ## License
 
-This combined distribution is licensed under AGPL-3.0. See [LICENSE](LICENSE) and [UPSTREAM_SKILL_NOTICES.md](UPSTREAM_SKILL_NOTICES.md).
+MIT License. See `LICENSE`.
